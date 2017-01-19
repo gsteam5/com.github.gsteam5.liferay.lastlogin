@@ -26,7 +26,7 @@ import com.liferay.portal.kernel.util.StringUtil;
 
 public class RandomUserHelper {
 	public static User createRandomUser(UserLocalService userLocalService, long companyId) {
-		String randomUserURL = "https://api.randomuser.me/?nat=gb,fi,br,us"; // just a string
+		String randomUserURL = "https://api.randomuser.me/?nat=gb"; // just a string
 		JsonObject rootobj = null;
 		// Connect to the URL using java's native library
 		URL url;
