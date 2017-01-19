@@ -1,4 +1,4 @@
-package com.github.gsteam5.liferay.lastlogin;
+package com.github.gsteam5.liferay.led;
 
 import com.github.gsteam5.liferay.usergen.RandomUserHelper;
 import com.liferay.portal.kernel.dao.orm.QueryUtil;
@@ -25,7 +25,7 @@ import org.osgi.service.component.annotations.Reference;
  */
 @ApplicationPath("/")
 @Component(immediate = true, property = { "jaxrs.application=true" }, service = Application.class)
-public class LastLoginService extends Application {
+public class LedService extends Application {
 
 	@Override
 	public Set<Object> getSingletons() {
