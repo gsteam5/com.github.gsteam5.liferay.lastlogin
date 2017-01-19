@@ -1,3 +1,11 @@
 Bundle-Version: 1.0.0
 Require-Capability: osgi.contract; filter:="(&(osgi.contract=JavaJAXRS)(version=2))"
 -sources: true
+Private-Package: \
+	com.google.gson,\
+	com.google.gson.internal,\
+	com.google.gson.internal.bind,\
+	com.google.gson.internal.bind.util,\
+	com.google.gson.annotations,\
+	com.google.gson.reflect,\
+	com.google.gson.stream
